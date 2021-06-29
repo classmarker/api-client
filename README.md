@@ -169,7 +169,7 @@ exit;
 
 
 # Example 15. POST: Add a new question
-# See Question format Examples at: https://www.classmarker.com/online-testing/docs/api/#question-object-Examples
+# See Question format Examples at: https://www.classmarker.com/online-testing/docs/api/#question-object-examples
 $question_json = '{
   "question": "What is the first step for treating a skin burn?",
   "question_type": "multiplechoice",
@@ -203,7 +203,7 @@ exit;
 
 
 # Example 16. PUT: Update a single question
-# See Question format Examples at: https://www.classmarker.com/online-testing/docs/api/#question-object-Examples
+# See Question format Examples at: https://www.classmarker.com/online-testing/docs/api/#question-object-examples
 $question_id = 53353998;
 $question_json = '{
   "question": "What is the first step for treating a skin burn?",
