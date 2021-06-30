@@ -4,6 +4,10 @@ ClassMarker is a secure online Quiz Maker platform for Business and Education fo
 ## Developer Documentation
 [https://www.classmarker.com/online-testing/docs/](https://www.classmarker.com/online-testing/docs/)
 
+## Database Schema
+Find a database schema for storing your exam results here: 
+[https://github.com/classmarker/API-PHP-MYSQL-SAMPLE-CODE](https://github.com/classmarker/API-PHP-MYSQL-SAMPLE-CODE)
+
 #### You can use the ClassMarker API to quickly integrate exams. You can perform operations such as:
 
 - Retrieving exam results
@@ -235,3 +239,7 @@ $json_response = $cm_client->updateQuestion($question_id, $question_json);
 echo $json_response;
 
 ```
+
+### Disclaimer  
+
+ClassMarker Pty Ltd accepts no responsibility whatsoever from usage of these scripts and shall be held harmless from any and all litigation, liability, and responsibilities.
