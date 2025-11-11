@@ -22,7 +22,7 @@ class ClassMarkerClient
 	private function generateSignature()
 	{
 		$this->request_timestamp = time();
-                i$signature = hash('sha256', $this->api_key . $this->secret . $this->request_timestamp);		
+		$signature = hash('sha256', $this->api_key . $this->secret . $this->request_timestamp);		
 		return $signature;
 	}
 
